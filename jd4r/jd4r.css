@@ -1,0 +1,35 @@
+
+body		{background-color:#99ccff}
+h1		{color:red; font-family:"Comic Sans MS",cursive,sans-serif; font-size:24pt;text-align:center}
+h2		{color:red; font-family:"Comic Sans MS",cursive,sans-serif; font-size:18pt;text-align:center}
+h3		{color:red; font-family:"Comic Sans MS",cursive,sans-serif; font-size:14pt;text-align:right}
+/*External and internal border*/
+table, td{
+	border-color: #00f;
+	border-style: solid;
+	border-collapse: collapse;
+	border-width: 2px;
+}
+td{
+	padding: 10px;
+}
+
+
+
+table, td{
+	border-width: 0px;
+	border-collapse: separate;
+	border-spacing: 20px;
+	background-color: #000;
+	/*Align the table*/
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+body{
+	background-image: url(2031-bg.png);
+	background-repeat: no-repeat;
+	background-position: right middle;
+
+	background-color: #092;
+}
